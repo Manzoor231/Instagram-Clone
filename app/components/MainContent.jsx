@@ -1,13 +1,11 @@
-import React from "react";
 import Highlights from "./Highlights";
 import ProfilePic from "./ProfilePic";
 import Username from "./Username";
 import ProfilePosts from "./ProfilePosts";
-
 const MainContent = () => {
   return (
-    <div className="main-content mx-10 py-4  ">
-      <div className="flex  justify-center items-center ">
+    <div className="main-content mx-10  py-2  ">
+      <div className="flex justify-center items-center ">
         <div>
           <ProfilePic />
         </div>
@@ -123,7 +121,9 @@ const MainContent = () => {
           />
         </div>
       </div>
+      <div>
       <div className="border-t border-gray-300  ">
+      <div >
             <div className="">
               <div className="flex justify-center gap-11 text-sm ">
                 <button className="flex items-center gap-1 border-t border-black py-4">
@@ -142,23 +142,18 @@ const MainContent = () => {
             </div>
 
       </div>
-      <div className="flex " >
-      <div className=" flex flex-wrap ">
-        <div className="flex gap-1">
-            <ProfilePosts />
-            <ProfilePosts />
-            <ProfilePosts />
-        </div>
-        <div className="flex gap-1">
-            <ProfilePosts />
-            <ProfilePosts />
-            <ProfilePosts />
-        </div>
-
       </div>
+      </div>
+      <div className="grid grid-cols-3">
+        <ProfilePosts  />
+        <ProfilePosts  />
+        <ProfilePosts  />
+        <ProfilePosts  />
+        <ProfilePosts  />
+        <ProfilePosts  />
       </div>
     </div>
-  );
+  );  
 };
 
 export default MainContent;

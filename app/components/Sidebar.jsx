@@ -1,7 +1,7 @@
 const Sidebar = () => {
   return (
     <>
-      <div className="sidebar w-[35.4%] max-xl:w-20 bg-white border-r border-gray-300 ">
+      <div className="sidebar w-[24.4%] sticky top-0 h-screen max-xl:w-20 bg-white border-r border-gray-300 max-xl:mr-24">
         <div className=" px-4 py-3 flex flex-col h-screen gap-4 ">
           <span className="py-6 px-3 group">
             <svg

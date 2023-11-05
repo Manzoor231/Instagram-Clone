@@ -4,7 +4,7 @@ import Sidebar from "./components/Sidebar";
 export default function Home() {
   return (
     <>
-      <div className=" flex">
+      <div className="flex gap-5">
         <Sidebar />
         <MainContent />
       </div>
