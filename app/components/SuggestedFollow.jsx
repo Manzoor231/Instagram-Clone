@@ -1,14 +1,15 @@
 import HomeProfile from "./HomeProfile";
-const SuggestedFollow = () => {
+import SuggestedProfile from "./SuggestedProfile";
+const SuggestedFollow = ({name,pic,newOld}) => {
   return (
     <>
       
       <div className="flex justify-between items-center py-3">
         <div className="flex text-sm items-center gap-3">
-          <HomeProfile />
+          <SuggestedProfile pic={pic}/>
           <div className="flex flex-col">
-            <p>manzoor.strange</p>
-            <p className="text-xs text-gray-500">New to Instagram</p>
+            <p>{name}</p>
+            <p className="text-xs text-gray-500">{newOld}</p>
           </div>
         </div>
         <div>
