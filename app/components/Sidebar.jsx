@@ -38,9 +38,9 @@ const Sidebar = () => {
           <ul className="flex flex-col gap-2 h-screen  text-sm ">
             <Link href="/"><li className="cursor-pointer lists-item flex items-center gap-4 group-first px-2 py-3 hover:bg-slate-100 hover:rounded-md transition-all">
               <svg
-                className="svg-icon transition-all    "
+                className="svg-icon transition-all "
                 aria-label="Home"
-                fill="currentColor"
+                fill="black"
                 height="24"
                 role="img"
                 viewBox="0 0 24 24"
