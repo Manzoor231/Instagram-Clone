@@ -145,12 +145,12 @@ const MainContent = () => {
       </div>
       </div>
       <div className="grid grid-cols-3">
-        <ProfilePosts  />
-        <ProfilePosts  />
-        <ProfilePosts  />
-        <ProfilePosts  />
-        <ProfilePosts  />
-        <ProfilePosts  />
+        <ProfilePosts pic="https://images.unsplash.com/photo-1665695503038-a5c3127f3da3?auto=format&fit=crop&q=80&w=1365&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+        <ProfilePosts  pic={"https://images.unsplash.com/photo-1696263077754-055b110c5820?auto=format&fit=crop&q=80&w=1287&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}/>
+        <ProfilePosts pic={"https://images.unsplash.com/photo-1698180733432-c81473da4ecd?auto=format&fit=crop&q=80&w=1287&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"} />
+        <ProfilePosts  pic={"https://images.unsplash.com/photo-1697442066898-fa88f11693d6?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"} />
+        <ProfilePosts pic={"https://images.unsplash.com/photo-1695393246885-a87a0653b6a8?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"} />
+        <ProfilePosts pic={"https://images.unsplash.com/photo-1694188119956-e28ffd3cf785?auto=format&fit=crop&q=80&w=1287&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"} />
       </div>
     </div>
   );  

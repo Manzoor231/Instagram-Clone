@@ -1,7 +1,9 @@
+import Link from "next/link";
+
 const Sidebar = () => {
   return (
     <>
-      <div className="sidebar w-[24.4%] sticky top-0 h-screen max-xl:w-20 bg-white border-r border-gray-300 max-xl:mr-24">
+      <div className="sidebar w-[19.4%] sticky top-0 h-screen max-xl:w-20 bg-white border-r border-gray-300 max-xl:mr-24">
         <div className=" px-4 py-3 flex flex-col h-screen gap-4 ">
           <span className="py-6 px-3 group">
             <svg
@@ -34,7 +36,7 @@ const Sidebar = () => {
             </svg>
           </span>
           <ul className="flex flex-col gap-2 h-screen  text-sm ">
-            <li className="cursor-pointer lists-item flex items-center gap-4 group-first px-2 py-3 hover:bg-slate-100 hover:rounded-md transition-all">
+            <Link href="/"><li className="cursor-pointer lists-item flex items-center gap-4 group-first px-2 py-3 hover:bg-slate-100 hover:rounded-md transition-all">
               <svg
                 className="svg-icon transition-all    "
                 aria-label="Home"
@@ -54,7 +56,7 @@ const Sidebar = () => {
                 ></path>
               </svg>
               <h1 className="max-xl:hidden">Home</h1>
-            </li>
+            </li></Link>
             <li className="cursor-pointer lists-item flex items-center gap-4  px-2 py-3 hover:bg-slate-100 hover:rounded-md transition-all">
               <svg
                 aria-label="Search"
@@ -262,6 +264,10 @@ const Sidebar = () => {
               </svg>
               <span className="max-xl:hidden">Create</span>
             </li>
+            <Link href="/profile"><li className="cursor-pointer lists-item flex items-center gap-4  px-1 py-3 hover:bg-slate-100 hover:rounded-md transition-all ">
+            <img alt="manzoorstrange.official's profile picture" className="rounded-full aspect-square object-cover  h-7" crossorigin="anonymous" draggable="false" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=1364&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+              <span className="max-xl:hidden">Profile</span>
+            </li></Link>
           </ul>
           <div className=" flex  flex-col gap-3">
             <span className="lists-item flex items-center gap-3  px-2 py-3 hover:bg-slate-100 hover:rounded-md transition-all ">
